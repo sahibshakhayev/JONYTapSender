@@ -1,0 +1,23 @@
+{
+  "name": "SahibJONYTapper",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chalk": "^5.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "gradient-string": "^2.0.2",
+    "https-proxy-agent": "^5.0.1",
+    "node-fetch": "^3.2.10",
+    "puppeteer": "^22.10.0"
+  }
+}
