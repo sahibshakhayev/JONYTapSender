@@ -1,6 +1,9 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import TapSender from './tap_sender.mjs'; // Import the TapSender class
+import dotenv from 'dotenv';
+dotenv.config();
+
 
 const app = express();
 const port = 5000;
